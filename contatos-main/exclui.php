@@ -7,7 +7,7 @@
         $pessoa = explode("|", fgets($arquivo));
     }
     fclose($arquivo);
-    $exclui = $posicao + 4;
+    $exclui = $posicao + 2;
     for($i = $posicao; $i < $exclui; $i++)
     {
         unset($pessoa[$i]);
@@ -22,7 +22,7 @@
     $arquivo = fopen("contatos.txt", "a+");
     $contador = count($contato);
     $i = 0;
-    while($i <= $contador - 1)
+    while($i <= $contador - 2)
     {
         $gravar = $contato[$i]."|";
         fwrite($arquivo, $gravar);
@@ -31,7 +31,7 @@
     fclose($arquivo2);
     fclose($arquivo);
     echo "<script>
-            alert('Contato excluído com sucesso!');
+            alert('Anotação excluída com sucesso!');
             window.location.href='index.php';
             </script>";
 ?>

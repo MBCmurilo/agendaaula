@@ -39,10 +39,32 @@
             </div>
         </div>
         <footer>
+        </footer>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        </nav>
         <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
         <center><h6><font color="white">Desenvolvido pelo melhor programador da sala TDS06 Murilo</font></h6></center>
         </nav>
-        </footer>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
     </body>
 </html>

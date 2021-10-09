@@ -8,6 +8,13 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
+    <style>
+body {
+    -webkit-animation: colorchange 60s infinite; 
+    animation: colorchange 60s infinite;
+}
+</style>
+    <div style='background:red'></div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <header>
             <center><img src="imagem/aaa.jpg" width="100%" height="100%"/></center>
@@ -65,7 +72,29 @@
         </footer>
         <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
         <center><h6><font color="white">Desenvolvido pelo melhor programador da sala TDS06 Murilo</font></h6></center>
+        </nav>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+        </nav>
+        <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
         </nav>
     </body>
 </html>
